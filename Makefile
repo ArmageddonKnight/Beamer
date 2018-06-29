@@ -10,3 +10,7 @@ clean:
 	find . \( -name "*.aux" -o -name "*.log" -o -name "*.nav" -o \
 	          -name "*.out" -o -name "*.snm" -o -name "*.toc" -o -name "*.synctex.gz" \) -o \
 	       \( -name "*.pdf" -a -not -path "./graphs/*" \) | xargs $(RM)
+
+.PHONY: style-upgrade
+style-upgrade:
+	git submodule update --init && cd shared && git checkout master && git pull
