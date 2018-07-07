@@ -14,8 +14,9 @@
 \begin{document}
 
   % Title
-  \title[]{}
-  \subtitle{}
+  \title[From NMT to RNN]{From Neural Machine Translation to \\
+    Recurrent Neural Networks}
+  \subtitle{Research Overview}
   \author[Bojian Zheng]
   {
     Bojian Zheng\inst{1} \\
@@ -27,7 +28,7 @@
       EcoSystem Research Group, Department of Computer Science \\
       University of Toronto
   }
-  \date[]{}
+  \date[CompArch Seminar]{Computer Architecture Seminar, 2018/7/17}
   \frame{\titlepage}
 
   \begin{frame}{Table of Contents}
@@ -41,6 +42,31 @@
     \end{frame}
   }
 
-
+  \section{Neural Machine Translation}
+  \subsection{Model}
+  \subsubsection{Embedding}
+  \begin{frame}{NMT.Model.Embedding}
+    \begin{columns}
+      \begin{column}{0.69\linewidth}
+        \Emph{Embedding} layer encodes words into vector representations.
+        \begin{itemize}
+          \item <1-> Suppose that we have a corpus of \(|V|\) vocabularies, 
+          and our hidden dimension for the machine learning model is \(H\),
+          then the embedding weight dimension should be \(|V|\times H\).
+          \item <2-> Ideally, after the training process, 
+          words that are semantically similar also have vector representations that are close to each other.
+        \end{itemize}
+      \end{column}
+      \begin{column}{0.29\linewidth}
+        
+      \end{column}
+    \end{columns}
+  \end{frame}
+  \subsubsection{Encoder}
+  \begin{frame}{NMT.Model.Encoder}
+    \Emph{Encoder}
+  \end{frame}
+  \subsubsection{Decoder}
+  \subsubsection{Loss (FC + Softmax)}
   
 \end{document}
