@@ -14,33 +14,33 @@
 
 \begin{document}
 
-  % Title
-  \title[]{}
-  \subtitle{}
-  \author[Bojian Zheng]
-  {
-    Bojian Zheng\inst{1} \\
-    \url{bojian@cs.toronto.edu}
-  }
-  \institute[EcoSystem]
-  {
-    \inst{1}
-      EcoSystem Research Group, Department of Computer Science \\
-      University of Toronto
-  }
-  \date[]{}
-  \frame{\titlepage}
+% Title
+\title[]{}
+\subtitle{}
+\author[Bojian Zheng]
+{
+  Bojian Zheng\inst{1} \\
+  \url{bojian@cs.toronto.edu}
+}
+\institute[EcoSystem]
+{
+  \inst{1}
+    EcoSystem Research Group, Department of Computer Science \\
+    University of Toronto
+}
+\date[]{}
+\frame{\titlepage}
 
+\begin{frame}{Table of Contents}
+  \tableofcontents
+\end{frame}
+
+\AtBeginSubsection
+{
   \begin{frame}{Table of Contents}
-    \tableofcontents
+    \tableofcontents[currentsection, currentsubsection]
   \end{frame}
-
-  \AtBeginSubsection
-  {
-    \begin{frame}{Table of Contents}
-      \tableofcontents[currentsection, currentsubsection]
-    \end{frame}
-  }
+}
 
   
   
