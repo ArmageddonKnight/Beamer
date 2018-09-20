@@ -1,3 +1,3 @@
-# [Beamer](https://github.com/ArmageddonKnight/Beamer/releases/download/latest/main.pdf) [![CircleCI](https://circleci.com/gh/ArmageddonKnight/Beamer.svg?style=svg)](https://circleci.com/gh/ArmageddonKnight/Beamer)
+# Beamer [![CircleCI](https://circleci.com/gh/ArmageddonKnight/Beamer.svg?style=svg)](https://circleci.com/gh/ArmageddonKnight/Beamer)
 
 Latex template based on beamer.
