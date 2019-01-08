@@ -26,4 +26,4 @@ template-update:
 		https://github.com/ArmageddonKnight/$(TEMPLATE) master --squash
 
 style-update:
-	wget -nc http://ctan.mirror.rafal.ca/macros/latex/contrib/xurl/latex/xurl.sty	
+	wget http://ctan.mirror.rafal.ca/macros/latex/contrib/xurl/latex/xurl.sty -O xurl.sty
