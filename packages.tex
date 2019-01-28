@@ -6,6 +6,7 @@
 
 \usepackage{soul} % Underline, Strikethrough
 \usepackage{pifont} % Tick and Cross
+\usepackage{transparent} % Transparentize
 \usepackage[super]{nth}
 \usepackage{xurl, hyperref}
 % Figures and Tables
@@ -56,3 +57,5 @@
 \newcommand{\xmark}{\color{red}{\ding{56}}}
 \newcommand{\positive}[1]{{\color{green!85!black}{\textbf{#1}}}}
 \newcommand{\negative}[1]{{\color{red}{\textbf{#1}}}}
+
+\newcommand{\transparentize}[1]{{\transparent{0.4} #1}}
