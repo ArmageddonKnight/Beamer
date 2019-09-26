@@ -1,10 +1,9 @@
-% Font and Input Encoding
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 
 \usepackage{microtype} % Micro Typography
 
-\usepackage{soul} % Underline, Strikethrough, Highlight
+\usepackage{soul}   % Underline, Strikethrough, Highlight
 \usepackage{pifont} % Tick and Cross
 \usepackage{transparent}
 \usepackage{xurl, hyperref}
@@ -14,9 +13,8 @@
 \usepackage{graphicx, subcaption}
 \usepackage{booktabs, tabularx, multirow}
 % Monospaced Code Blocks
-\usepackage[scaled=0.85]{beramono}
 \usepackage{listings}
-\usepackage{fancyvrb, fvextra}
+\usepackage[scaled=0.85]{beramono}
 % Math Packages
 \usepackage{nicefrac}
 \usepackage{mathrsfs, mathtools}
@@ -52,11 +50,6 @@
   tabsize=4,                       % sets default tabsize to 4 spaces
 }
 
-\newcommand{\valignc}[1]{\raisebox{-0.5\height}{#1}}
-\newcommand{\Emph}[1]{\ul{\textbf{#1}}}
-\newcommand{\EmphMathText}[1]{\underline{\mathbf{#1}}}
-\newcommand{\EmphMath}[1]{\underline{\boldsymbol{#1}}}
-
 \newcommand{\cmark}{{\color{green!80!black}\ding{52}}}
 \newcommand{\xmark}{{\color{red}\ding{56}}}
 \newcommand{\positive}[1]{{\color{green!85!black}{\textbf{#1}}}}
@@ -66,3 +59,8 @@
 
 \newcommand\algocommentfont[1]{\footnotesize\ttfamily\textcolor{blue}{#1}}
 \SetCommentSty{algocommentfont}
+
+\catcode`\_=12
+
+\let\UrlBreaksWOUnderscores\UrlBreaks
+\def\UrlBreaks{\UrlBreaksWOUnderscores\do\_}
