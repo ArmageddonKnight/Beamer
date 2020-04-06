@@ -1,3 +1,3 @@
 # Beamer ![](https://github.com/ArmageddonKnight/Beamer/workflows/build/badge.svg)
 
-*PPT Latex Template based on [Beamer](https://github.com/josephwright/beamer)*
+*PPT LaTex Template based on [Beamer](https://github.com/josephwright/beamer)*
