@@ -13,4 +13,3 @@ clean:
 		   -name "*.vrb" -o -name "*.synctex.gz" \) | xargs $(RM)
 
 upgrade:
-	curl http://ctan.mirror.rafal.ca/macros/latex/contrib/xurl/latex/xurl.sty -o xurl.sty
